@@ -1,5 +1,4 @@
 package org.skypro.skyshop.model.search;
-import org.springframework.context.annotation.Configuration;
 import java.util.Objects;
 
 
