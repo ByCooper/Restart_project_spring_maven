@@ -29,14 +29,26 @@ public class StorageService {
         return mapArticle;
     }
 
+    /**
+     * Преобразование мапы с продуктами в коллекцию
+     * @return
+     */
     public Collection<Product> getAllProduct() {
         return getMapProduct().values().stream().toList();
     }
 
+    /**
+     * Преобразование мапы со статьями в коллекцию
+     * @return
+     */
     public Collection<Article> getAllArticles() {
         return getArticleMap().values().stream().toList();
     }
 
+    /**
+     * Метод, который заполняет хранилище тестовыми данными для продуктов
+     * @return
+     */
     private Map<UUID, Product> productMap() {
         Map<UUID, Product> map = new HashMap<>();
         Product vahid = new SimpleProduct("Chease", 10);
@@ -54,6 +66,10 @@ public class StorageService {
         return map;
     }
 
+    /**
+     * Метод, который заполняет хранилище тестовыми данными для статей
+     * @return
+     */
     private Map<UUID, Article> articleMap() {
         Map<UUID, Article> map = new HashMap<>();
         Article post = new Article("Gazirovka - top", "Coca-Cola is vkusno otchen, and I realy loved drink Coca-Cola");
@@ -63,10 +79,19 @@ public class StorageService {
         return map;
     }
 
+    /**
+     * Метод, который преобразует мапы с продуктами и статьями в объединенную коллекцию
+     * @return
+     */
     public Collection<Searchable> getAllElements() {
         return Stream.concat(getMapProduct().values().stream(), getArticleMap().values().stream()).toList();
     }
 
+    /**
+     * Метод, который осуществляет поиск в хранилище с продуктами по UUID
+     * @param id
+     * @return
+     */
     public Optional<Product> getProductById(UUID id) {
         return Optional.ofNullable(getMapProduct().get(id));
     }

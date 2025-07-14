@@ -19,6 +19,10 @@ public class BasketService {
         this.productBasket = productBasket;
     }
 
+    /**
+     * Добавление продукта по UUID в продуктовую корзину
+     * @param id
+     */
     public void addProductInBasket(UUID id){
         if(storageService.getProductById(id).isEmpty()){
             throw new IllegalArgumentException();
@@ -27,6 +31,10 @@ public class BasketService {
         }
     }
 
+    /**
+     * Получение содержимого продуктовой корзины пользователя
+     * @return экземпляр класса UserBasket
+     */
     public UserBasket getUserBasket(){
         return new UserBasket(productBasket.getBasket().keySet().stream()
                 .map(integer -> new BasketItem(storageService.getProductById(integer).get(), productBasket.getBasket().get(integer)))

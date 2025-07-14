@@ -34,6 +34,11 @@ public class SearchResult {
                 '}';
     }
 
+    /**
+     * Метод, который переводит экземпляр класса Searchable в экземпляр класса SearchResult
+     * @param searchable
+     * @return
+     */
     public static SearchResult fromSearchable(Searchable searchable){
         return new SearchResult(searchable.getId().toString(), searchable.getName(), searchable.searchTypeContent());
     }

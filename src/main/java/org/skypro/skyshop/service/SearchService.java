@@ -13,7 +13,11 @@ public class SearchService {
         this.storageService = storageService;
     }
 
-
+    /**
+     * Поиск наименования по имени в пространстве интернет-магазина среди продуктов и статей
+     * @param s
+     * @return Коллекция элементов, которые содержат в имени и теле(статья) искомое значение
+     */
     public Collection<SearchResult> search(String s){
         return storageService.getAllElements().stream()
                 .filter(e -> e.toString().contains(s))

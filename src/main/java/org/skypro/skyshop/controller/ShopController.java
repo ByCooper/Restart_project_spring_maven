@@ -28,27 +28,49 @@ public class ShopController {
         this.basketService = basketService;
     }
 
+    /**
+     * Отображение всех продуктов, которые содержатся интернет-магазине
+     * @return
+     */
     @GetMapping("/product")
     public Collection<Product> getAllProducts(){
         return storageService.getAllProduct();
     }
 
+    /**
+     * Отображение информационных статей
+     * @return
+     */
     @GetMapping("/article")
     public Collection<Article> getAllArticles(){
         return storageService.getAllArticles();
     }
 
+    /**
+     * Поиск по наименованию в интернет-магазине
+     * @param pattern
+     * @return
+     */
     @GetMapping("/search")
     public Collection<SearchResult> search(@RequestParam("pattern") String pattern){
         return searchService.search(pattern);
     }
 
+    /**
+     * Добавление наименования в продуктовую корзину пользователя
+     * @param id
+     * @return
+     */
     @GetMapping("/getbasket/{id}")
     public String addProduct(@PathVariable("id") UUID id){
        basketService.addProductInBasket(id);
         return "Продукт успешно добавлен";
     }
 
+    /**
+     * Отображение содержимого корзины пользователя
+     * @return
+     */
     @GetMapping("/basket")
     public UserBasket getUserBasket(){
         return basketService.getUserBasket();

@@ -16,6 +16,10 @@ public class ProductBasket {
         this.basket = basket;
     }
 
+    /**
+     * Добавление информации по продукту, сохраняется id продукта и количество продуктов
+     * @param id
+     */
     public void addProduct(UUID id) {
         if (basket.containsKey(id)) {
             Integer value = basket.get(id) + 1;
@@ -26,6 +30,10 @@ public class ProductBasket {
         }
     }
 
+    /**
+     * Метод для получения информации по элементам, id и количество одинаковых объектов
+     * @return Мапу с запретом на модификацию
+     */
     public Map<UUID, Integer> getBasket() {
         return Collections.unmodifiableMap(basket);
     }
