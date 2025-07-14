@@ -8,13 +8,14 @@ import java.util.UUID;
 
 public abstract class Product implements Searchable {
     private final String name;
-    private final UUID id = UUID.randomUUID();
+    private final UUID id;
 
     public Product(String name) {
         if(name == null || name.isBlank()){
             throw new IllegalArgumentException("Имя не может быть пустым");
         } else {
             this.name = name;
+            this.id = UUID.randomUUID();
         }
     }
 

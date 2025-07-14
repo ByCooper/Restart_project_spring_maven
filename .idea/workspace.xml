@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21383a2f-5820-4ce3-927b-9e3c00576d7f" name="Changes" comment="RESTART_перенос проекта в Spring_Maven" />
+    <list default="true" id="21383a2f-5820-4ce3-927b-9e3c00576d7f" name="Changes" comment="RESTART_перенос проекта в Spring_Maven">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/model/basket/BasketItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/model/basket/ProductBasket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/model/basket/UserBasket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/service/BasketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/controller/ShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/model/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/model/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/service/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/service/StorageService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,24 +37,24 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2zlYoL4bUtowKMXoY86mRFjTE1T" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SkyshopApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kupof/IdeaProjects/skyshop/skyshop"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SkyshopApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kupof/IdeaProjects/skyshop/skyshop&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.skypro.skyshop.model.product" />
@@ -98,6 +107,17 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RESTART_перенос проекта в Spring_Maven" />

@@ -64,6 +64,10 @@ public class StorageService {
     }
 
     public Collection<Searchable> getAllElements() {
-        return Stream.concat(productMap().values().stream(), articleMap().values().stream()).toList();
+        return Stream.concat(getMapProduct().values().stream(), getArticleMap().values().stream()).toList();
+    }
+
+    public Optional<Product> getProductById(UUID id) {
+        return Optional.ofNullable(getMapProduct().get(id));
     }
 }
