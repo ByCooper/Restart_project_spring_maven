@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21383a2f-5820-4ce3-927b-9e3c00576d7f" name="Changes" comment="RESTART_перенос проекта в Spring_Maven">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/model/basket/BasketItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/model/basket/ProductBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/model/basket/UserBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/service/BasketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/controller/ShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/model/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/model/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/service/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/skypro/skyshop/service/StorageService.java" afterDir="false" />
-    </list>
+    <list default="true" id="21383a2f-5820-4ce3-927b-9e3c00576d7f" name="Changes" comment="RESTART_перенос проекта в Spring_Maven.Рефакторинг(добавлен javadoc)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +96,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752346924270</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="RESTART_перенос проекта в Spring_Maven.Рефакторинг(исправлена логика методов, дополнены методы)">
+      <option name="closed" value="true" />
+      <created>1752498741827</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752498741827</updated>
+    </task>
+    <task id="LOCAL-00004" summary="RESTART_перенос проекта в Spring_Maven.Рефакторинг(добавлен javadoc)">
+      <option name="closed" value="true" />
+      <created>1752500485517</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752500485517</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RESTART_перенос проекта в Spring_Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="RESTART_перенос проекта в Spring_Maven" />
+    <MESSAGE value="RESTART_перенос проекта в Spring_Maven.Рефакторинг(исправлена логика методов, дополнены методы)" />
+    <MESSAGE value="RESTART_перенос проекта в Spring_Maven.Рефакторинг(добавлен javadoc)" />
+    <option name="LAST_COMMIT_MESSAGE" value="RESTART_перенос проекта в Spring_Maven.Рефакторинг(добавлен javadoc)" />
   </component>
 </project>
